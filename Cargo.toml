@@ -9,8 +9,11 @@ authors = [
 edition = "2021"
 
 [dependencies]
-console = { version = "0.16", features = ["std"] }
-indicatif = { version = "0.16", features = ["default"] }
+# console = { version = "0.16", features = ["std"] }
+# indicatif = { version = "0.16", features = ["default"] }
+indicatif = "0.16"
+console = "0.15"
+
 argh = "0.1"
 notify = "4.0"
 toml = "0.5"
