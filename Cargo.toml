@@ -10,8 +10,6 @@ edition = "2021"
 
 [dependencies]
 argh = "0.1"
-indicatif = "0.16"
-console = "0.15"
 notify = "4.0"
 toml = "0.5"
 regex = "1.5"
@@ -20,6 +18,8 @@ serde_json = "1.0.81"
 home = "0.5.3"
 glob = "0.3.0"
 tokio = { version = "1.21.2", features = ["full"] }
+indicatif = { version = "0.16.2", features = ["default"] }
+console = { version = "0.16.1", features = ["std"] }
 
 [[bin]]
 name = "rustlings"
